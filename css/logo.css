@@ -1,0 +1,24 @@
+.logo-box {
+  display: inline-block;
+  border-radius: 25%;
+  background-color: var(--orange-soda);
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+
+.logo-box-small {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.logotype {
+  display: inline-block;
+  font-weight: 700;
+}
+
+.logotype-small {
+  font-size: 20px;
+}
