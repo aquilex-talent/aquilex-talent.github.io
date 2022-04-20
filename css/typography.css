@@ -5,9 +5,18 @@ h1 {
 .emph {
   color: var(--orange-soda);
 }
+.underline {
+  border-bottom: 5px solid var(--orange-soda);
+}
 
 h6 {
   font-weight: 300;
   font-size: 20px;
   margin: 20px 0;
+}
+
+.footnote {
+  display: inline-block;
+  margin-left: 10px;
+  letter-spacing: 0.1em;
 }
