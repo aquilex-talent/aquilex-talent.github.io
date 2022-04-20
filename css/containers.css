@@ -1,5 +1,37 @@
+.image {
+  height: 500px;
+  background-size: cover;
+}
+
+.image-right {
+  border-radius: 200px 0 200px 200px;
+}
+.image-left {
+  border-radius: 0 200px 200px 200px;
+}
+
 .container {
+  height: 100%;
   width: 100%;
   max-width: 1024px;
   margin: auto;
+}
+
+.splitter {
+  display: flex;
+  width: 100%;
+}
+
+.splitter .half {
+  width: 50%;
+  margin: 10px;
+}
+
+.align-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.align-vertical * {
+  height: min-content;
 }
