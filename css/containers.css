@@ -43,3 +43,7 @@ footer {
 .align-vertical * {
   height: min-content;
 }
+
+.filler {
+  height: 60px;
+}
