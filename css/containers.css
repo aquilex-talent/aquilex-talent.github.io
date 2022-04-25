@@ -47,3 +47,7 @@ footer {
 .filler {
   height: 60px;
 }
+
+.center-text {
+  text-align: center;
+}

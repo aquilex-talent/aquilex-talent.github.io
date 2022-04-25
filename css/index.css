@@ -6,6 +6,7 @@
 @import 'button.css';
 @import 'logo.css';
 @import 'navbar.css';
+@import 'cards.css';
 
 * {
   margin: 0;
