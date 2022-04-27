@@ -32,7 +32,29 @@ footer {
 
 .splitter .half {
   width: 50%;
-  margin: 10px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 856px) {
+  .splitter {
+    flex-direction: column;
+  } 
+  .splitter .half {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .splitter .reorder {
+    order: 2;
+  }
+  .image {
+    height: 300px;
+  }
+  .splitter .text-half {
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 .align-vertical {

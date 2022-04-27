@@ -1,6 +1,7 @@
 .cardholder {
   display: flex;
   justify-content: space-around;
+  margin-top: 10px;
 }
 
 .cardholder .card {
@@ -41,4 +42,14 @@
 .cardholder .card p {
   text-align: left;
   padding: 20px;
+}
+
+@media screen and (max-width: 1002px) {
+  .cardholder {
+    flex-direction: column;
+  }
+  .cardholder .card {
+    width: 300px;
+    margin: 10px auto;
+  }
 }
