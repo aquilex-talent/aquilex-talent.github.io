@@ -1,0 +1,28 @@
+.faceholder {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.faceholder .card {
+  width: 30%;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 8px;
+  line-height: 1.8rem;
+}
+
+.faceholder .card .face {
+  width: 100%;
+}
+
+@media screen and (max-width: 786px) {
+  .faceholder {
+    flex-direction: column;
+  }
+  .faceholder .card {
+    width: 300px;
+    margin: 10px auto;
+  }
+}
